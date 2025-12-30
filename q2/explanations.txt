@@ -1,0 +1,37 @@
+This command creates a new directory named documents inside my home directory. 
+It is used to store project-related files.
+
+
+
+The touch command creates an empty file named plan.txt inside the documents directory. 
+This file will be used for storing project plan notes.
+
+
+
+This command writes sample project notes into the plan.txt file. 
+It confirms that I can add and manage file content in Linux.
+
+
+The ls -l command displays file permissions, ownership, size and timestamp of plan.txt. 
+It verifies that the file is owned by my user account.
+
+
+
+This command creates a duplicate copy of plan.txt as plan_copy.txt. 
+It demonstrates file copying within a directory.
+
+
+The mv command renames the documents directory to project_documents. 
+This reflects that the directory contains project-related files.
+
+
+This command creates a subdirectory named archive inside project_documents.
+It will be used for storing backup or archived files.
+
+
+The mv command moves plan_copy.txt into the archive directory.
+It demonstrates file organization within nested directories.
+
+
+The realpath command prints the absolute file path of plan_copy.txt.
+It confirms the final location of the moved file in the system.

@@ -1,0 +1,154 @@
+5875 sample_data.txt  5875 sample_hard.txt  6029 sample_soft.txt
+
+
+-rw-r--r-- 2 rohit_yalavarthi rohit_yalavarthi 25 Dec 30 23:46 sample_data.txt
+
+
+
+468K    /home/rohit_yalavarthi
+4.0K    /home/rohit_yalavarthi/Rohit
+0       /home/rohit_yalavarthi/\
+4.0K    /home/rohit_yalavarthi/archive
+4.0K    /home/rohit_yalavarthi/archive.zip
+0       /home/rohit_yalavarthi/bik
+32K     /home/rohit_yalavarthi/ccbp-ide
+4.0K    /home/rohit_yalavarthi/combine.txt
+4.0K    /home/rohit_yalavarthi/destini.txt
+240K    /home/rohit_yalavarthi/devara
+4.0K    /home/rohit_yalavarthi/directory
+4.0K    /home/rohit_yalavarthi/docs
+8.0K    /home/rohit_yalavarthi/documents
+4.0K    /home/rohit_yalavarthi/documents.zip
+4.0K    /home/rohit_yalavarthi/example.txt
+0       /home/rohit_yalavarthi/file1.txt
+0       /home/rohit_yalavarthi/file2.txt
+4.0K    /home/rohit_yalavarthi/log.txt
+0       /home/rohit_yalavarthi/obsolete.txt
+0       /home/rohit_yalavarthi/oldname.txt
+4.0K    /home/rohit_yalavarthi/project
+16K     /home/rohit_yalavarthi/project_documents
+4.0K    /home/rohit_yalavarthi/report.txt
+4.0K    /home/rohit_yalavarthi/sample_data.txt
+0       /home/rohit_yalavarthi/sample_soft.txt
+4.0K    /home/rohit_yalavarthi/setup_environment.sh
+0       /home/rohit_yalavarthi/source.txt
+4.0K    /home/rohit_yalavarthi/user_info.txt
+
+
+
+
+
+
+
+
+-rw-r--r-- 2 rohit_yalavarthi rohit_yalavarthi 25 Dec 30 23:46 sample_data.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rohit_yalavarthi@Rohit:~$ du -h ~
+4.0K    /home/rohit_yalavarthi/documents/archive
+8.0K    /home/rohit_yalavarthi/documents
+20K     /home/rohit_yalavarthi/ccbp-ide/.workspace/sample-project
+24K     /home/rohit_yalavarthi/ccbp-ide/.workspace
+32K     /home/rohit_yalavarthi/ccbp-ide
+4.0K    /home/rohit_yalavarthi/.cache
+4.0K    /home/rohit_yalavarthi/docs
+48K     /home/rohit_yalavarthi/.docker/desktop/log/host
+52K     /home/rohit_yalavarthi/.docker/desktop/log
+56K     /home/rohit_yalavarthi/.docker/desktop
+4.0K    /home/rohit_yalavarthi/.docker/run
+68K     /home/rohit_yalavarthi/.docker
+4.0K    /home/rohit_yalavarthi/devara/pushpa/.git/branches
+64K     /home/rohit_yalavarthi/devara/pushpa/.git/hooks
+4.0K    /home/rohit_yalavarthi/devara/pushpa/.git/objects/pack
+4.0K    /home/rohit_yalavarthi/devara/pushpa/.git/objects/info
+12K     /home/rohit_yalavarthi/devara/pushpa/.git/objects
+8.0K    /home/rohit_yalavarthi/devara/pushpa/.git/info
+4.0K    /home/rohit_yalavarthi/devara/pushpa/.git/refs/tags
+4.0K    /home/rohit_yalavarthi/devara/pushpa/.git/refs/heads
+12K     /home/rohit_yalavarthi/devara/pushpa/.git/refs
+116K    /home/rohit_yalavarthi/devara/pushpa/.git
+120K    /home/rohit_yalavarthi/devara/pushpa
+4.0K    /home/rohit_yalavarthi/devara/.git/branches
+64K     /home/rohit_yalavarthi/devara/.git/hooks
+4.0K    /home/rohit_yalavarthi/devara/.git/objects/pack
+4.0K    /home/rohit_yalavarthi/devara/.git/objects/info
+12K     /home/rohit_yalavarthi/devara/.git/objects
+8.0K    /home/rohit_yalavarthi/devara/.git/info
+4.0K    /home/rohit_yalavarthi/devara/.git/refs/tags
+4.0K    /home/rohit_yalavarthi/devara/.git/refs/heads
+12K     /home/rohit_yalavarthi/devara/.git/refs
+116K    /home/rohit_yalavarthi/devara/.git
+240K    /home/rohit_yalavarthi/devara
+8.0K    /home/rohit_yalavarthi/project_documents/archive
+16K     /home/rohit_yalavarthi/project_documents
+4.0K    /home/rohit_yalavarthi/project
+4.0K    /home/rohit_yalavarthi/directory
+4.0K    /home/rohit_yalavarthi/.local/share/nano
+8.0K    /home/rohit_yalavarthi/.local/share
+12K     /home/rohit_yalavarthi/.local
+4.0K    /home/rohit_yalavarthi/archive
+468K    /home/rohit_yalavarthi
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+none            5.8G     0  5.8G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            5.8G  4.0K  5.8G   1% /mnt/wsl
+drivers         476G  297G  180G  63% /usr/lib/wsl/drivers
+/dev/sdc        251G  2.5G  236G   2% /
+none            5.8G   88K  5.8G   1% /mnt/wslg
+none            5.8G     0  5.8G   0% /usr/lib/wsl/lib
+rootfs          5.8G  2.4M  5.8G   1% /init
+none            5.8G  844K  5.8G   1% /run
+none            5.8G     0  5.8G   0% /run/lock
+none            5.8G     0  5.8G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            5.8G   76K  5.8G   1% /mnt/wslg/versions.txt
+none            5.8G   76K  5.8G   1% /mnt/wslg/doc
+C:\             476G  297G  180G  63% /mnt/c
+snapfuse        128K  128K     0 100% /snap/bare/5
+snapfuse         74M   74M     0 100% /snap/core22/2111
+snapfuse         74M   74M     0 100% /snap/core22/2193
+snapfuse         92M   92M     0 100% /snap/gtk-common-themes/1535
+snapfuse         51M   51M     0 100% /snap/snapd/25202
+snapfuse         51M   51M     0 100% /snap/snapd/25577
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1276
+snapfuse        132M  132M     0 100% /snap/ubuntu-desktop-installer/1286
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

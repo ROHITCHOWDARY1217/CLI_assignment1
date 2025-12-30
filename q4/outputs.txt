@@ -1,0 +1,112 @@
+up 3 hours, 15 minutes
+
+
+
+
+
+
+
+
+
+
+    PID TTY          TIME CMD
+    383 pts/0    00:00:00 bash
+    442 ?        00:00:00 systemd
+    443 ?        00:00:00 (sd-pam)
+    448 pts/1    00:00:00 bash
+   2051 pts/0    00:00:00 ps
+
+
+
+
+
+
+top - 00:54:10 up  3:18,  1 user,  load average: 0.05, 0.03, 0.00
+Tasks:  34 total,   1 running,  33 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.2 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  11801.2 total,  11053.3 free,    556.6 used,    191.3 buff/cache
+MiB Swap:   3072.0 total,   3072.0 free,      0.0 used.  11003.4 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+      1 root      20   0  165832  13304   8380 S   0.7   0.1   0:04.65 systemd
+    467 root      20   0   44188  38160  10228 S   0.7   0.3   0:03.54 python3
+    322 root      20   0  154348  70968  17948 S   0.3   0.6   0:02.65 python3.10
+      2 root      20   0    2776   1920   1796 S   0.0   0.0   0:00.00 init-systemd(Ub
+      6 root      20   0    2776      4      0 S   0.0   0.0   0:00.00 init
+     35 root      19  -1   47740  13964  12956 S   0.0   0.1   0:00.56 systemd-journal
+     58 root      20   0   22100   6016   4540 S   0.0   0.0   0:00.26 systemd-udevd
+     72 root      20   0  152992    196     40 S   0.0   0.0   0:00.00 snapfuse
+     75 root      20   0  152992   2212     16 S   0.0   0.0   0:00.00 snapfuse
+     77 root      20   0  377284  11936    376 S   0.0   0.1   0:00.46 snapfuse
+     85 root      20   0  153124   4300     44 S   0.0   0.0   0:00.00 snapfuse
+     89 root      20   0  152992    180     20 S   0.0   0.0   0:00.00 snapfuse
+     98 root      20   0  526812  15496    376 S   0.0   0.1   0:02.67 snapfuse
+    101 root      20   0  152992   2204      0 S   0.0   0.0   0:00.00 snapfuse
+    105 root      20   0  302520  11368    372 S   0.0   0.1   0:00.89 snapfuse
+    114 systemd+  20   0   26200  13348   8372 S   0.0   0.1   0:00.21 systemd-resolve
+    133 root      20   0    4308   2656   2420 S   0.0   0.0   0:00.00 cron
+    136 message+  20   0    8596   4504   3960 S   0.0   0.0   0:00.05 dbus-daemon
+    154 root      20   0   30176  19264  10252 S   0.0   0.2   0:00.18 networkd-dispat
+    158 syslog    20   0  222404   6972   4420 S   0.0   0.1   0:00.04 rsyslogd
+    167 root      20   0 2145572  44796  22980 S   0.0   0.4   0:01.72 snapd
+    172 root      20   0   15332   7408   6468 S   0.0   0.1   0:00.09 systemd-logind
+
+
+
+
+
+
+
+
+
+
+
+[1] 2662
+
+
+
+
+
+
+[1]+  Running                 sleep 120 &
+
+
+
+
+
+
+
+
+
+
+2662 pts/0    00:00:00 sleep
+
+
+
+
+
+
+
+renice: failed to get priority for 2662 (process ID): No such process
+
+
+
+
+               total        used        free      shared  buff/cache   available
+Mem:            11Gi       508Mi        10Gi       3.0Mi       405Mi        10Gi
+Swap:          3.0Gi          0B       3.0Gi
+
+
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc        251G  2.5G  236G   2% /
+
+
+
+/bin/bash
+
+
+
+Linux Rohit 5.15.167.4-microsoft-standard-WSL2 #1 SMP Tue Nov 5 00:21:55 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+
+

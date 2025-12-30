@@ -1,0 +1,48 @@
+The uptime -p command shows how long the system has been running in a readable format.
+It helps understand system stability and continuous running time.
+
+
+The ps -u $USER command lists all processes running under my user account.
+It helps identify programs and tasks currently active in my session.
+
+
+The top command displays real-time running processes and CPU usage.
+From the output, I identified the process consuming the highest CPU percentage.
+
+
+
+
+The sleep 120 & command starts a background job that runs for 120 seconds.
+The jobs command confirms that the background process is running.
+
+
+
+The renice command changes the priority (niceness value) of a running process.
+Increasing niceness reduces its CPU scheduling priority.
+
+
+
+
+The free -h command displays total, used and available memory in human-readable format.
+It helps monitor RAM usage on the system.
+
+
+
+
+The df -h ~ command shows disk usage of the filesystem where my home directory is located.
+It displays total size, used space and free space in readable format.
+
+
+
+The echo $SHELL command prints the shell program currently being used in my session.
+This helps identify the active shell environment.
+
+
+
+The uname -a command prints detailed system information.
+The output is redirected into system_report.txt using the > operator.
+
+
+
+The ncdu tool provides an interactive disk usage viewer.
+It helps analyze directories consuming high disk space.

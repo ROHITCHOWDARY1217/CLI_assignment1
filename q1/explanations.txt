@@ -1,0 +1,34 @@
+This command displays my user account UID, GID, and groups. 
+It verifies that I am logged in with my own Linux user identity.
+
+The pwd command displays the current working directory path. 
+
+
+The ls -l command lists files in long format showing permissions, ownership, and timestamps
+
+This command creates a file named user_info.txt and writes the text into it. 
+It confirms that I successfully created a file in my working directory.
+
+
+I viewed the manual page of the mkdir command and learned about options. 
+The -p option allows creating parent directories if they do not already exist.
+
+
+This command lists the contents of my home directory and sorts them alphabetically. 
+It helps in viewing files and folders in an organized order.
+
+
+The grep command searches for the word 'admin' inside log.txt. 
+It prints only the matching lines from the file.
+
+
+The uname -r command displays the Linux kernel version currently running on the system. 
+This helps in identifying the OS kernel build and version.
+
+
+The ping command sends ICMP packets to google.com to test network connectivity. 
+The -c 3 option sends exactly three packets and displays the response time.
+
+
+The uptime command shows how long the system has been running, number of users logged in, and load averages. 
+This helps in understanding system usage and performance status.

@@ -1,0 +1,17 @@
+-rw-r--r-- 1 rohit_yalavarthi rohit_yalavarthi 28 Dec 30 20:57 plan.txt
+
+
+
+
+
+
+project_documents:
+archive  plain.txt  plan.txt
+
+project_documents/archive:
+plan_copy.txt
+
+
+
+
+/home/rohit_yalavarthi/project_documents/archive/plan_copy.txt

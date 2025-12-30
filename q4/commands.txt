@@ -1,0 +1,13 @@
+uptime -p
+ps -u $USER
+top
+sleep 120 &
+jobs
+ps -u $USER | grep sleep
+renice +5 2662
+free -h
+df -h ~
+echo $SHELL
+uname -a > system_report.txt
+cat system_report.txt
+sudo apt install ncdu -y

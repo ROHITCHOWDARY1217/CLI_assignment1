@@ -1,0 +1,46 @@
+This command creates a new file named sample_data.txt in my home directory 
+and writes sample text content into it.
+
+
+
+The ln command creates a hard link named sample_hard.txt 
+which points to the same inode as sample_data.txt.
+
+
+The ln -s command creates a symbolic (soft) link named sample_soft.txt 
+which stores only the path to the original file.
+
+
+The ls -i command displays inode numbers of files. 
+It helps in comparing which files share the same inode.
+
+
+
+
+sample_data.txt and sample_hard.txt have the same inode number,
+because a hard link refers to the same physical file on disk.
+sample_soft.txt has a different inode because it is only a pointer (symbolic link).
+
+
+
+
+The ls -l command shows permissions, ownership, size and timestamps of sample_data.txt. 
+It helps verify file metadata and access control details.
+
+
+The du -sh command displays the total disk usage of my home directory 
+in a human-readable format.
+
+
+This command lists the disk usage of each file and directory in my home folder 
+in a readable size format.
+
+
+I deleted only the symbolic link sample_soft.txt. 
+The original file sample_data.txt remains unaffected because a soft link is only a reference.
+
+
+
+The du command shows disk usage of files and directories. 
+The df command displays filesystem space, total size, used space and free space.
+Together they help analyze storage usage on the system.
